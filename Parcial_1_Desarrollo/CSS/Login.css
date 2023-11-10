@@ -1,0 +1,118 @@
+header{
+    background-color: #242582;
+    height: 150px;
+}
+
+body{
+    background-color: #2F2FA2;
+    font-family: "Times New Roman";
+}
+
+h1{
+    font-size: 60px;
+    color: #F64C72;
+}
+
+section{
+    height: 900px;
+width: 100%;
+  clear: both;
+}
+
+
+img.imagen{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin-top: 10px;
+    padding-left: 15%;
+    top: 30%;
+}
+
+.texto-imagen{
+    position: relative;
+  text-align: center;
+    font-size: 40px;
+    font-family: "Times New Roman";
+    top: -120px;
+}
+
+.Caja-imagen{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.Caja-contenedora_login{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+
+/* Estilos para el formulario de inicio de sesión */
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #242582;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    top: 27%;
+position: relative;
+}
+
+.login-container h2 {
+    text-align: center;
+    color: white;
+}
+
+.Nombre {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 95.5%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #242582;
+    text-align: left; /* Alineación de texto */
+    height: 120px;
+}
+.texto_pie{
+    text-align: center;
+    font-size: 20px;
+}
+.Imagen_Up{
+    display: flex;
+    position: relative;
+    width: 130px;
+    height: 130px;
+    top: -95%;
+
+}
